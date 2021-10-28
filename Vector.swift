@@ -40,4 +40,10 @@ class Vector {
         
         return Vector(x3, y3)
     }
+    
+    
+    /// Adds two vectors together and returns a vector
+    func Add(_ vector1: Vector, _ vector2: Vector) -> Vector {
+        return Vector(vector1.x + vector2.x, vector1.y + vector2.y)
+    }
 }
