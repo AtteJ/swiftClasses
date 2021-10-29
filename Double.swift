@@ -53,7 +53,15 @@ extension Double {
         }
     }
     
+    
+    /// Rounds a Double to three decimals. rounded() rounds to int
     func roundTo (_ a: Double) -> Double {
         return (a * 1000.0).rounded() / 1000.0
+    }
+    
+    
+    /// Rounds a Double to three decimals. rounded() rounds to int
+    func roundTo () -> Double {
+        return (self * 1000.0).rounded / 1000.0
     }
 }
